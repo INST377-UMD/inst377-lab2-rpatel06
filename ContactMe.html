@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style> 
+        body { 
+            background-color: #97ce8d; 
+        }
+ 
+        .form-input {
+            margin: 10px 0;
+        }
+
+        label {
+            font-size: 18px;  
+            font-weight: bold;
+        }
+ 
+        input {
+            padding: 5px;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+ 
+        .submit-button {
+            background-color: rgb(31, 49, 26);
+            color: white;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+ 
+        .submit-button:hover {
+            background-color: rgb(238, 237, 139);
+            color: black;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>INST377 - Riya Patel - Lab 2 - Contact Me</h1>
+    <form action="Thanks.html" method="post">
+        
+        <div class="form-input">
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-input">
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <button type="submit" class="submit-button">submit!</button>
+    </form>
+</body>
+</html>
